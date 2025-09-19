@@ -1,0 +1,158 @@
+.banner {
+  width: 100%;
+}
+
+.brief-sec {
+  margin: 1em;
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  gap: 1rem;
+  background: #000814;
+}
+
+.bsec-img {
+  margin: 1em;
+  border-radius: 1em;
+  box-shadow: 0 0 5px #fffffc;
+  background: #fffffc;
+}
+
+.skate {
+  width: 30vw;
+  padding: 1em;
+  border-radius: 1.5em;
+}
+
+.bsec-intro {
+  box-shadow: 0px 0px 5px #fff;
+  border-radius: 1em;
+  background: #fffffc;
+  margin: 1em;
+}
+
+.bsec-intro h1 {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5rem;
+  font-weight: 400;
+  text-align: center;
+  padding: 0.5em;
+}
+
+.bsec-intro p {
+  font-family: "Lato";
+  font-size: 3.5rem;
+  font-weight: 300;
+  text-align: justify;
+  padding: 0 2em;
+}
+
+.model-images p {
+  font-family: "Lato";
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  text-align: center;
+  margin: 0.5em;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  background: #000814;
+  flex: none;
+}
+
+.gallery img {
+  width: 30em;
+  box-shadow: 0 0 5px #080708;
+  padding: 1em;
+  border-radius: 2em;
+  background: #fffffc;
+  margin: 1em;
+}
+
+.newsletter {
+  text-align: center;
+  margin: 2em;
+}
+
+#bheading {
+  font-family: "Lato";
+  font-size: 6.5rem;
+  font-weight: 900;
+}
+
+#subheading {
+  font-family: "Lato";
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0.5em;
+}
+
+.mail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.mail input {
+  width: 25em;
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  padding: 0.25em;
+  border: none;
+}
+
+.subscribe {
+  width: 25em;
+  font-family: "Space Mono", monospace;
+  font-size: 1.5rem;
+  padding: 0.5em;
+  border: none;
+  border-radius: 0.5em;
+}
+.subscribe:hover {
+  background: #d90429;
+  color: #fffffc;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .banner {
+    width: 100%;
+  }
+
+  .brief-sec {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .bsec-intro h1 {
+    font-size: 2.5rem;
+  }
+
+  .bsec-intro p {
+    font-size: 1.75rem;
+  }
+
+  .skate {
+    width: 85vw;
+  }
+
+  .model-images p {
+    font-size: 2rem;
+  }
+}

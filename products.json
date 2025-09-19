@@ -1,0 +1,50 @@
+[
+  {
+    "id": "p001",
+    "name": "SHFC Home Jersey",
+    "price": 20000.0,
+    "description": "The SHFC Home Jersey features a bold, modern design inspired by the spirit of Square Hearts. Crafted from high-quality, breathable fabric, it ensures comfort whether you're on the pitch or in the stands. Its vibrant colors and unique detailing make it a standout piece for any fan or collector.",
+    "image": "./Assets/Images/sqr jrsy.webp",
+    "class": "h-jersey"
+  },
+  {
+    "id": "p002",
+    "name": "SHFC Flower Season Jersey",
+    "price": 25000.0,
+    "description": "Celebrate the vibrancy of the new season with the SHFC Flower Season Jersey, designed to capture the energy and optimism of spring. Its lightweight material and tailored fit provide both comfort and style for everyday wear or match days. The jersey’s floral-inspired accents make it a unique addition to any Square Hearts collection.",
+    "image": "./Assets/Images/Flower season jersey.webp",
+    "class": "flower-jersey"
+  },
+  {
+    "id": "p003",
+    "name": "Olympic T-shirt",
+    "price": 15000.0,
+    "description": "Show your support for Square Hearts with the Olympic T-shirt, featuring a sleek design inspired by athletic excellence. Its soft, durable fabric ensures all-day comfort whether you're training or relaxing. The bold heart motif and vibrant colors make this tee a standout addition to any wardrobe.",
+    "image": "./Assets/Images/sqr 4 love.webp",
+    "class": "olympics"
+  },
+  {
+    "id": "p004",
+    "name": "Square Hearts Friends T-shirt",
+    "price": 15000.0,
+    "description": "The Square Hearts Friends T-shirt is designed to celebrate connection and community. Its soft, premium fabric ensures a comfortable fit for everyday wear. The playful design and vibrant colors make it perfect for sharing your Square Hearts pride with friends.",
+    "image": "./Assets/Images/sqr love shrt.webp",
+    "class": "friends"
+  },
+  {
+    "id": "p005",
+    "name": "Jimmy Jorts",
+    "price": 19499.99,
+    "description": "Jimmy Jorts bring a playful twist to classic denim shorts, perfect for casual outings or summer adventures. Their relaxed fit and durable fabric ensure comfort and longevity throughout the day. The unique Square Hearts detailing adds a signature touch to this versatile wardrobe staple.",
+    "image": "./Assets/Images/Jimmy jorts copy.webp",
+    "class": "jorts"
+  },
+  {
+    "id": "p006",
+    "name": "Sticker Pack",
+    "price": 500.0,
+    "description": "Add personality to your belongings with the Square Hearts Sticker Pack, featuring a variety of unique designs. Each sticker is made from durable, high-quality material that resists fading and peeling. Perfect for customizing laptops, water bottles, notebooks, and more.",
+    "image": "./Assets/Images/sqr sticks.webp",
+    "class": "stickers"
+  }
+]

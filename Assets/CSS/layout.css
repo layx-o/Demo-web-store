@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.navbar {
+  width: 0;
+}
+
+nav {
+  background: #fffffc;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000814;
+}
+
+.logo {
+  width: 2.5em;
+  margin-left: 0.5em;
+}
+
+nav ul {
+  gap: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1.5em;
+}
+
+li a:hover {
+  color: #fff;
+  background: #d90429;
+  padding: 0.5em;
+}
+
+.nav-links {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1rem;
+  width: 100%;
+}
+
+.nav-links i {
+  font-size: 3rem;
+  padding-bottom: 0.157em;
+  position: relative;
+  display: inline-block;
+}
+
+.cart-badge {
+  position: absolute;
+  right: 2em;
+  background: #d90429;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.5em;
+  border-radius: 50%;
+  font-family: inherit;
+  font-weight: bold;
+  min-width: 1.5em;
+  text-align: center;
+  pointer-events: none;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  box-shadow: 0px 0px 5px black;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+  padding: 0.5em;
+  justify-content: center;
+  align-items: center;
+  background: #080708;
+  color: #fffffc;
+  width: 100%;
+}
+
+.c-phrase {
+  margin-right: 0.5em;
+}
+
+.sm {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.5em;
+}
+
+.sounds {
+  display: flex;
+  flex-direction: row;
+  margin-right: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav {
+    max-width: 100%;
+  }
+
+  .logo {
+    width: 2em;
+    margin-left: 0.25em;
+  }
+
+  .nav ul {
+    gap: 1em;
+    position: fixed;
+    margin-right: 0.5em;
+  }
+
+  .nav-links {
+    font-size: 1.5rem;
+    overflow-x: hidden;
+    width: 100vw;
+  }
+
+  .nav-links i {
+    position: relative;
+    padding-top: 0.5em;
+    font-size: 1.5rem;
+  }
+
+  .cart-badge {
+    position: absolute;
+    right: 1.5em;
+    font-size: 1rem;
+    border-radius: 50%;
+    padding: 0.125em;
+    min-width: 0.5em;
+  }
+
+  footer {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
